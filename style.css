@@ -1,0 +1,109 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.picklist {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+}
+
+.picklist-header {
+	font-weight: bold;
+	text-align: center;
+	margin: 0.4rem 0;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	gap: 0.4rem;
+	width: 12rem;
+	padding: 0.4rem;
+	border-radius: 0.2rem;
+	margin-right: 0.2rem;
+	transition: all 0.2s ease-in;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+.droplist-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 3rem;
+}
+
+.picklist-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0.4rem;
+	border: 0.1rem solid #bf0603;
+	min-height: 16rem;
+	width: 14rem;
+}
+
+.droplist {
+	max-height: 20rem;
+	padding: 0.4rem 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.controls-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0.4rem;
+}
+
+input {
+	padding: 0.4rem;
+	border: 0.1rem solid #bf0603;
+	margin: 0.4rem 0;
+	border-radius: 0.2rem;
+}
+
+.controls-group > button {
+	background-color: #3351b6;
+	color: #f1faee;
+	border: none;
+	border-radius: 0.2rem;
+}
+
+.user-controls {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+}
+
+.user-controls-buttons > button {
+	background-color: #3351b6;
+	color: #f1faee;
+	border: none;
+	border-radius: 0.2rem;
+	padding: 0.4rem;
+}
+
+button:hover {
+	cursor: pointer;
+}
